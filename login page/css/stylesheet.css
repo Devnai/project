@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "nunito", sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("img-icons/Minimalist-HD-Backgrounds.jpg");
+}
+
+a .fbox {
+    display: inline-block;
+}
+
+.lbox {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid black;
+    border-radius: 40px;
+    height: 80%;
+    width: 30%;
+}
+
+.lbox h1 {
+    font-weight: 800;
+}
+
+.form label {
+    margin-top: 3%;
+    font-size: 1.2em;
+    margin: 3% 0 0 0;
+    font-weight: 500;
+}
+
+.form input {
+    display: block;
+    border-radius: 15px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form input::placeholder {
+    text-align: center;
+}
+
+.form .link {
+    font-size: 1.2em;
+}
+
+.form div {
+    font-size: 1.2em;
+}
+
+.button {
+    border-radius: 5px;
+    padding: 0 5%;
+}
